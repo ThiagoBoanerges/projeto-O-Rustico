@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2{
+    font-size: 48px;
+    color: #473C38;
+}
+
+p{
+    color: #666666;
+    line-height: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hero-section{
+    /*width: 100%;
+    height: auto;*/
+    background-color: #473C38;
+    padding-top: 30px;
+    padding-bottom: 112px;
+}
+
+.container{
+    width: 1120px;
+    /*height: auto;*/
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*selecionando link a dentro do menu*/
+.menu a{
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    margin-left: 70px;
+}
+/*ao passar o mouse seleciona*/
+.menu a:hover{
+    color: #ffe5b6;
+}
+
+.flex-hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 112px;
+}
+
+.content-hero{
+    width: 643px;
+}
+
+.content-hero h1{
+    color: #FFFFFF;
+    font-size: 60px;
+    line-height: 56px;
+}
+
+.content-hero p{
+    color:#FFFFFF;
+    max-width: 450px;
+    line-height: 24px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.content-hero a{
+    color: #473C38;
+    background-color: #C2B19C;
+    padding: 15px 50px;
+    display: inline-block;
+}
+
+.content-hero a:hover{
+    color:#ffe5b6;
+}
+
+.image-hero img{
+    filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, 0.25));
+}
+
+.presentation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.content-presentation{
+    width: 643px;
+}
+
+.image-presentation img{
+    filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, 0.25));
+}
+
+
+.content-presentation h2{
+    max-width: 548px;
+    margin-bottom: 40px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #473C38;
+    color: #FFFFFF;
+    padding: 6px 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #B2935B;
+}
+
+.btn-block{
+    display: block;
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+}
+
+.cards{
+    background-color: #F0F1F0;
+    padding: 50px 0;
+}
+
+.flex-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card-item{
+    width: 356px;
+    background-color: #FFFFFF;
+    padding: 38px;
+    box-sizing: border-box;/*faz com que nao precise alterar as bordas do box*/
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(204, 204, 204, 0.25);
+}
+
+.card-item h3{
+    color: #473C38;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.card-item img{
+    border-radius: 5px;
+}
+
+.footer-section{
+    background-color: #FFFFFF;
+    display: flex;
+    align-content: center;
+}
+
+.comment{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.title-comment{
+    font-size: 40px;
+    color: #473C38;
+    font-family: Playfair Display;
+    margin: 24px 0;
+}
+
+.news{
+    background-color: #C2B19C;
+    padding: 50px 0;
+}
+
+.news form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.news label{
+    display: block;
+    color: #473C38;
+}
+
+.news input{
+    width: 450px;
+    height: 30px;
+    background-color: #F0F1F0;
+    border: none;
+}
+
+.footer{
+    background-color: #473C38;
+    padding: 50px 0;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-footer{
+    width: 356px;
+}
+
+.box-footer h4{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.box-footer p{
+    color: #F0F1F0;
+    margin-top: 11px;
+    margin-bottom: 0px;
+}
